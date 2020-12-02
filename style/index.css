@@ -1,4 +1,33 @@
-#box{
-    color: skyblue;
-    background-color:grey;
+.text-box{
+    min-height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px dashed #abced4;
+    background: #abced444;
+    margin:auto; 
+    padding: 1rem; 
+    font-size: 4rem;
+   
+}
+#text-color{
+    color: grey; 
+}
+#text-shadow1{
+    text-shadow: 2px 2px;
+}
+
+#text-shadow2{
+    text-shadow: 0px 0px 5px;
+}
+
+#text-shadow3{
+    text-shadow: 0px 0px 5px #5ac5d8;
+}
+
+#font-style{
+    font-style: italic;
+}
+
+#font-variant{
+    font-variant: small-caps; 
 }
