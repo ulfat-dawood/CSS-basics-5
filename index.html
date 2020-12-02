@@ -101,7 +101,7 @@
             <h2>Line Height</h2>
             <ul><li><code>line-height: normal(default) | [scale] | [number][unit];</code></li>
                 <br>
-                <li>define the leading of text, the white space between each line.</li>
+                <li>defines the 'leading' of text, the white space between each line.</li>
             </ul>
             <h6>HINT: unit can be % or px ...etc.</h6>
             <div id="line-height" class="text-box">Lines are separated by 1.75 of the actual font-size</div>
@@ -111,6 +111,41 @@
 
         <section>
             <h2>Font family</h2>
+            <ul><li><code>font-family: ['font-name'] , [fallback-font];</code>
+                <br>
+                <li>fall back fonts are usually generic-family fonts, such as:</li>
+                <ul><li>sans-serif</li><li>serif</li><li>cursive</li><li>fantasy</li><li>monospace </li></ul>
+            </li></ul>
+            <h6>HINT: generic-family fonts don't need to be qouted. </h6>
+
+            <div id="font-family" class="text-box">"Times New Roman" is the font of this text. <br>
+            serif, is the fallback font.</div>
+        </section>
+
+       
+
+        <section>
+            <h2>Font Stretch </h2>
+            <ul><li><code>font-stretch: ultra-condensed | extra-condensed | condensed | semi-condensed | normal | semi-expanded | expanded | extra-expanded | ultra-expanded;</code></li>
+                <br>
+                <li>Defines how streched each letter will apprear.</li>
+                <li>Only Variable fonts like "League Mono Variable" support font-strech .</li>
+                <li>Not supported by older browsers.</li>
+            </ul>
+           
+
+        </section> 
+
+         
+        <section>
+            <h2>Shorthand</h2>
+            <ul>
+                <li><code>font: font-size font-family;</code> (mandatory values)</li><br>
+                <li><code>font: font-stretch font-style font-variant font-weight font-size/line-height font-family</code> (optional values)</li>
+            </ul>
+
+            <div id="font-shorthand" class="text-box">This text is italic with default font variant, 500 font weight, 1.5 line height, Helvetica font and 30px large.</div>
+
         </section>
 
 
