@@ -53,3 +53,16 @@
 #font-shorthand{
     font: italic normal 500 30px/1.5 Helvetica, sans-serif;
 }
+
+#text-align{
+    text-align: right;
+}
+
+#vertical-align{
+    height: 300px;
+}
+#vertical-align h6{
+
+    display: inline-block;
+    vertical-align: bottom;
+}
