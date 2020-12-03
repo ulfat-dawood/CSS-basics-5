@@ -56,13 +56,25 @@
 
 #text-align{
     text-align: right;
+
+}
+
+#text-align h6{
+    border: 1px solid var(--text); 
+    display: inline-block;
+
 }
 
 #vertical-align{
     height: 300px;
+    width: 500px; 
 }
-#vertical-align h6{
 
+#vertical-align h6{
+    
     display: inline-block;
     vertical-align: bottom;
+    border: 1px solid var(--text); 
 }
+
+    

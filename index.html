@@ -151,13 +151,35 @@
 
         <h1 class="title">Text Formatting</h1>
         <section>
-            <h2>Text Alignment</h2>
-            <ul><li><code>text-align: left | right | center | justify;</code></li></ul>
-            <div id="text-align" class="text-box">This text is horizontally aligned to the right.</div><br>
+            <h2>Horizontal Alignment</h2>
+            <ul>
+                <li><code>text-align: left | right | center | justify;</code></li>
+                <br>
+                <li>Aligns (text) AND (children elemnts) horizontally, relative to the parent element. </li>
+                <li><code>text-align</code> property is assigned to the parent element.</li>
+            </ul>
 
-            <ul><li><code>vertical-align: baseline|length|sub|super|top|text-top|middle|bottom|text-bottom
-            </code></li></ul>
-            <div id="vertical-align" class="text-box"><h6>text</h6><h6>text2</h6></div><br>
+            <div id="text-align" class="text-box">
+                This text is horizontally aligned to the right. <br>
+                <h6> child element<br>aligned to<br>the right</h6>
+            </div><br>
+
+            <h2>Vertical Alignment</h2>
+            <ul>
+                <li><code>vertical-align: baseline|length|sub|super|top|text-top|middle|bottom|text-bottom;</code></li>
+                <br>
+                <li>Works only with (inline) or (inline-block) elements.</li>
+                <li>Align children elemnts vertically, relative to their siblings (NOT parent). </li>
+                <li><code>vertical-align</code> property is assigned to each individual children (NOT to the parent)</li>
+                <br>
+                <li>elements below are aligned to the bottom of each other, not relative to the bottom of parent</li>
+
+            </ul>
+            <div id="vertical-align" class="text-box">
+                <h6>fist <br>text</h6>
+                <h6>second <br>text is <br>longer</h6>
+                <h6>third</h6>
+            </div><br>
 
         </section>
 
