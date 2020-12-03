@@ -189,11 +189,21 @@
         <section>
             <h2>Text Decoration</h2>
 
-            <ul><li><code>text-decoration: underline | overline | line-through | none;</code></li></ul>
+            <ul>
+                <li><code>text-decoration-line: underline | overline | line-through;</code></li>
+                <li><code>text-decoration-color: keyword | hex | rgb() | hsl();</code></li>
+                <li><code>text-decoration-style: solid | double | dotted | dashed | wavy;</code></li>
+            </ul>
 
             <h2>Shorthand</h2>
-            <ul><li><code>text-decoration: line color style;</code></li></ul>
-            <div id="text-decoration" class="text-box">text<br>
+            <ul><li><code>text-decoration: line | multiple-lines;</code></li></ul><br>
+            <div id="text-decoration1" class="text-box">text</div><br><br>
+            
+                <ul><li><code>text-decoration: [line | multiple-lines] color; </code></li></ul><br>
+            <div id="text-decoration2" class="text-box">text</div><br><br>
+
+                <ul><li><code>text-decoration: [line | multiple-lines] color style;</code></li></ul><br>
+            <div id="text-decoration3" class="text-box">text</div><br><br>
 
 
             

@@ -77,7 +77,15 @@
     border: 1px solid var(--text); 
 }
 
-#text-decoration{
+#text-decoration1{
+    text-decoration: underline overline ;
+}
+
+#text-decoration2{
+    text-decoration: underline var(--blue) ;
+}
+
+#text-decoration3{
     text-decoration: underline var(--blue) dashed ;
 }
 
@@ -99,3 +107,5 @@
 #letter-spacing2{
     letter-spacing: -4px;
 }
+
+#
