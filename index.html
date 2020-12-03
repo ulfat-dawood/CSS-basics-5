@@ -156,6 +156,7 @@
                 <li><code>text-align: left | right | center | justify;</code></li>
                 <br>
                 <li>Aligns (text) AND (children elemnts) horizontally, relative to the parent element. </li>
+                <br>
                 <li><code>text-align</code> property is assigned to the parent element.</li>
             </ul>
 
@@ -168,11 +169,13 @@
             <ul>
                 <li><code>vertical-align: baseline|length|sub|super|top|text-top|middle|bottom|text-bottom;</code></li>
                 <br>
-                <li>Works only with (inline) or (inline-block) elements.</li>
-                <li>Aligns (children elemnts only) (not text) vertically, relative to their siblings (NOT parent). </li>
+                <li>Works only: <ul><li>with (inline) or (inline-block) elements.</li><li>And if <code>float:none</code>.</li></ul></li>
+                <br>
+                <li>Aligns (children elemnts only) (not text) vertically, relative to their other siblings (NOT parent). </li>
+                <br>
                 <li><code>vertical-align</code> property is assigned to each individual children (NOT to the parent)</li>
                 <br>
-                <li>elements below are aligned to the bottom of each other, not relative to the bottom of parent</li>
+                <li>elements below are aligned to the bottom of each other, not relative to the bottom of their parent</li>
 
             </ul>
             <div id="vertical-align" class="text-box">
@@ -185,19 +188,64 @@
 
         <section>
             <h2>Text Decoration</h2>
+
+            <ul><li><code>text-decoration: underline | overline | line-through | none;</code></li></ul>
+
+            <h2>Shorthand</h2>
+            <ul><li><code>text-decoration: line color style;</code></li></ul>
+            <div id="text-decoration" class="text-box">text<br>
+
+
+            
         </section>
 
         <section>
             <h2>Text Tranformation</h2>
-        </section>
+            <ul><li><code>text-transform: none(default) | capitalize | uppercase | lowercase;</code></li></ul>
+            <div id="text-transform" class="text-box">text is transformed to uppercase. </div>
 
-        <section>
-            <h2>Text Spacing</h2>
         </section>
-
         <section>
             <h2>First Letter</h2>
+            <ul>
+                <li>Special type of selectors. Allows to style only the first letter of the text.</li>
+                <br>
+                <li><code>selector::first-letter{ set of declerations}</code></li><br>
+                <div id="first-letter" class="text-box">The first letter is blue and larger </div>
+
+            </ul>
         </section>
+
+            <h1 class="title">White Spacing</h1>
+        <section>
+            <h2>Text Indentation</h2>
+            <ul><li><code>text-indent: [number][unit]</code></li></ul>
+            <ul><li>indentation on the first line</li></ul>
+            <div id="text-indent" class="text-box">The first line of this text has indentation of 50px.</div>
+
+        </section>
+
+        <section>
+            <h2>Letter Spacing</h2>
+            <ul><li><code>letter-spacing: [number][unit]</code></li></ul>
+            <ul><li>spesify the tracking (spacing between letters in a word)</li></ul>
+            <div id="letter-spacing1" class="text-box">Words are loose.</div><br>
+            <div id="letter-spacing2" class="text-box">Words are compact closly.</div>
+
+        </section>
+
+        <section>
+            <h2>Line Height</h2>
+            <ul><li><code>line-height: normal(default) | [scale] | [number][unit];</code></li>
+                <br>
+                <li>defines the 'leading' of text, the white space between each line.</li>
+            </ul>
+            <h6>HINT: unit can be % or px ...etc.</h6>
+            <div id="line-height" class="text-box">Lines are separated by 1.75 of the actual font-size</div>
+
+
+        </section>
+
 
 
 
