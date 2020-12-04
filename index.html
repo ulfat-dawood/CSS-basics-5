@@ -56,7 +56,87 @@
         <h1 class="title">Relative Units</h1>
 
         <section>
-            <h2></h2>
+            <h2>Relative to Viewport</h2>
+
+            <p>Viewport == browser window size</p>
+            <br>
+            <ul>
+                <li><code>vh </code> - view height</li>
+                <li><code>vw </code> - view width</li>
+            </ul>
+
+            
+            <p><code>100vh </code> will fit the entire window height.</p>
+            <div id="vh" class="text-box">Height is set to 50vh = it will fill 1/2 of the window height.</div>
+
+        </section>
+        <section>
+            <h2>Relative to Font Size</h2>
+            <ol>
+                <li><code>em </code> - (EleMent) Relative to the font-size of the element.</li>
+                <li><code>rem </code> - (Root EleMent) Relative to the font-size of the root element.</li>
+            </ol>
+        </section>
+        <section>
+            <h2>EM</h2>
+            <ul>
+
+                <li>MARGIN/ PADDING/ HEIGHT/ WIDTH</li>
+                <ul>
+                    <li>Relative to the font-size of current element.</li>
+                </ul><br>
+                <div id="em-padding" class="text-box">
+                    <p>font-size:10px</p>
+                    <p>padding: 3em (20px)</p>
+                    <div class="parent text-box">
+                            <p>font-size:10px</p>
+                            <p>padding: 2em (20px)</p>
+                        <div class="child text-box">
+                                <p>font-size:10px</p>
+                                <p>padding: 1em (10px)</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <li>FONT-SIZE</li>
+                <ul>
+                    <li>Relative to the font-size of parent element.</li>
+                </ul><br>
+                <div id="em-font" class="text-box">
+                        <p>font-size:10px</p>
+                    <div class="parent text-box">
+                            <p>font-size:2em  (20px)</p>
+                        <div class="child text-box">
+                            <p>font-size:2em  (40px)</p>
+                        </div>
+                    </div>
+                </div>
+
+            </ul>
+        </section>
+
+        <section>
+            <h2>REM</h2>
+            <ul>
+
+                    <li>MARGIN/ PADDING/ HEIGHT/ WIDTH / FONT-size</li>
+                    <ul>
+                        <li>Relative to the font-size of root element (html).</li>
+                    </ul>
+                    <br>
+                    <div id="rem-font" class="text-box">
+                            <p>html{font-size:10px}</p>
+                        <div class="parent text-box">
+                                <p>font-size: 2em  (20px)</p>
+                            <div class="child text-box">
+                                <p>font-size: 2em  (20px)</p>
+                            </div>
+                        </div>
+                    </div>
+    
+            </ul>
         </section>
     </div>
     <script src="./app.js"></script>

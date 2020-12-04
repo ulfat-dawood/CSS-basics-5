@@ -21,3 +21,54 @@
     height: 200px;
     font-size: 35px
 }
+
+#vh{
+    height: 50vh;
+}
+
+#em-padding{
+    font-size: 10px;
+    padding: 3em;
+    width:70%;
+}
+
+#em-padding .parent{
+    font-size: 10px;
+    padding:2em; 
+    width:70%;
+}
+
+#em-padding .child{
+    font-size: 10px;
+    padding:1em; 
+    width:70%;
+}
+
+#em-font{
+    font-size: 10px;
+    width:70%;
+}
+
+#em-font .parent{
+    font-size: 2em;
+    width:70%;
+}
+
+#em-font .child{
+    font-size: 2em;
+    width:70%;
+}
+
+#rem-font{
+    width:70%;
+}
+
+#rem-font .parent{
+    font-size: 2rem;
+    width:70%;
+}
+
+#rem-font .child{
+    font-size: 2rem;
+    width:70%;
+}
