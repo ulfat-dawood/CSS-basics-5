@@ -8,9 +8,10 @@
     padding: 1rem; 
     font-size: 4rem;
     text-align: center;
+    box-shadow: -5px -5px #abced444;
    
 }
 
 #percentage{
-    width:50%; 
+    width:90%; 
 }
